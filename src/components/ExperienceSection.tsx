@@ -12,7 +12,7 @@ export function ExperienceSection() {
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-2">
           <div>
             <h3 className="text-xl font-bold text-slate-900 dark:text-white">Frontend Developer</h3>
-            <div className="text-blue-600 dark:text-blue-400 font-medium">Infused Co., Ltd.</div>
+            <div className="text-blue-600 dark:text-blue-400 font-medium">Infuse Co., Ltd.</div>
           </div>
           <div className="text-slate-500 dark:text-slate-400 text-sm mt-1 sm:mt-0 font-medium">
             2023 - Present
