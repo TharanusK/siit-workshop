@@ -1,9 +1,13 @@
 import { MapPin, Phone, Mail, Globe } from 'lucide-react';
 import Link from 'next/link';
+import { ThemeToggle } from './ThemeToggle';
 
 export function Header() {
   return (
-    <section className="mb-12 text-center sm:text-left">
+    <section className="mb-12 text-center sm:text-left relative">
+      <div className="absolute right-0 top-0">
+        <ThemeToggle />
+      </div>
       <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-4 text-slate-900 dark:text-white">
         THARANUS KONGJAROON
       </h1>

@@ -1,4 +1,5 @@
 import { Code2, Database, Wrench, Users } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 export function SkillsSection() {
   const skillGroups = [
@@ -48,9 +49,14 @@ export function SkillsSection() {
             </h3>
             <div className="flex flex-wrap gap-2">
               {group.skills.map(skill => (
-                <span key={skill} className="bg-slate-100 dark:bg-slate-700 px-2 py-1 rounded text-sm text-slate-700 dark:text-slate-200">
+                <motion.span 
+                  key={skill} 
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="bg-slate-100 dark:bg-slate-700 px-2 py-1 rounded text-sm text-slate-700 dark:text-slate-200 cursor-default inline-block"
+                >
                   {skill}
-                </span>
+                </motion.span>
               ))}
             </div>
           </div>
