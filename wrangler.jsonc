@@ -1,0 +1,8 @@
+{
+  "name": "siit-workshop",
+  "main": "src/index.js",
+  "compatibility_date": "2025-12-26",
+  "observability": {
+    "enabled": true
+  }
+}
